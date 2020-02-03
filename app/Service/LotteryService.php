@@ -4,7 +4,7 @@ namespace App\Services;
 
 use GuzzleHttp\Client;
 
-class LiftService
+class LotteryService
 {
     protected $source;
 
