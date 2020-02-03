@@ -1,14 +1,12 @@
 <?php
 namespace App\Console\Commands;
 
-use GuzzleHttp\Client;
 use App\Services\LotteryService;
 use App\Models\Lottery;
 
 class UpdateWinningNumberJob
 {
     protected $lottery;
-    protected $code;
 
     public __construct(Lottery $lottery)
     {
